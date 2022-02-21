@@ -1,0 +1,16 @@
+.footer__copyright {
+padding-right: 48px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-align: right;
+position: relative;
+}
+
+.footer__copyright:hover {
+  opacity: 0.8;
+  background-color: #2A2C2F;
+}

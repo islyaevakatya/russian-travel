@@ -1,0 +1,17 @@
+.footer__list {
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  justify-self: start;
+  align-items: end;
+  padding-top: 92px;
+  gap: 18px;
+  position: relative;
+}
+
+@media screen  and (min-width: 1024px {
+
+}

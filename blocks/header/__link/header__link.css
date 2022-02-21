@@ -1,0 +1,14 @@
+.header__link {
+  width: 30px;
+  height: 28px;
+  margin-top: 46px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  text-align: right;
+  text-decoration-line: underline;
+  text-decoration: none;
+  color:#fff;
+}

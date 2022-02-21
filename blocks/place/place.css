@@ -1,0 +1,15 @@
+.place {
+  /*min-width: 984px;*/
+  /*height: 660px;*/
+  margin: 0;
+  padding-left: 148px;
+  padding-right: 148px;
+  display: grid;
+
+
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: repeat(3, min-content);
+  grid-column-gap: 40px;
+  padding-bottom: 48px;
+  grid-column-start: 48px;
+}

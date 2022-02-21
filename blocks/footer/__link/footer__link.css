@@ -1,0 +1,15 @@
+.footer__link {
+ list-style-type: none;
+  color: #FFFFFF;
+  text-decoration: none;
+  position: relative;
+
+
+}
+
+
+
+.footer__link:hover {
+  opacity: 0.8;
+  background-color: #2A2C2F;
+}
