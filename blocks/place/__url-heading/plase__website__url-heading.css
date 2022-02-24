@@ -5,6 +5,17 @@ line-height: 12px;
 /* identical to box height, or 100% */
 
 letter-spacing: 2px;
-width: 456px;
+max-width: 456px;
 margin: 0;
+padding-bottom: 12px;
+}
+
+@media screen and (max-width: 320px) {
+  .plase__website__url-heading {
+  font-size: 12px;
+line-height: 12px;
+max-width: 288px;
+
+  }
+
 }

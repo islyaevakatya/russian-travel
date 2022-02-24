@@ -1,6 +1,28 @@
 .place__image {
-  width: 460px;
-  height: 460px;
+  max-width: 460px;
+  min-height: 460px;
   object-fit: cover;
   overflow: hidden;
+}
+
+
+@media screen and (max-width:1024px) {
+  .place__image {
+  max-width: 440px;
+  min-height: 440px;
+  }
+}
+
+@media screen and (max-width:786px) {
+  .place__image {
+  max-width: 340px;
+  min-height: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+  max-width: 320px;
+  min-height: 320px;
+  }
 }

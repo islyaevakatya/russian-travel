@@ -1,10 +1,34 @@
 .header {
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
   min-height: 52px;
-  /*max-width: 1184px;*/
+  max-width: 1184px;
   box-sizing: border-box;
   padding-top: 28px;
+  margin: 0 auto;
+
+
 
 }
+
+@media screen and (max-width: 1024px) {
+.header {
+  min-width: 928px;
+
+}
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    min-width: 720px;
+
+  }
+  }
+
+  @media screen and (max-width: 320px) {
+    .header {
+      min-width: 288px;
+      min-height: 42px;
+      padding-top: 16px;
+    }
+    }

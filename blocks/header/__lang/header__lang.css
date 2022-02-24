@@ -6,3 +6,9 @@
   align-items: flex-end;
   padding-right: 48px;
 }
+
+@media screen and (max-width:320px) {
+  .header__lang {
+    padding-right: 16px;
+  }
+}
