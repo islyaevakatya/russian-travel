@@ -19,6 +19,8 @@
 Работа с Figma
 Оптимизация картинок
 
+Ccылка на проект
+https://islyaevakatya.github.io/russian-travel/index.html
 
 ### Обзор
 * Интро
