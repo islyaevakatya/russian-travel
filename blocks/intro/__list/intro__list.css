@@ -5,15 +5,14 @@
 }
 
 @media screen and (max-width:768px) {
- .intro__list {
-  padding-bottom: 88px;
+  .intro__list {
+    padding-bottom: 88px;
  }
 
 }
 
 @media screen and (max-width:320px) {
   .intro__list {
-   padding-bottom: 64px;
+    padding-bottom: 64px;
   }
-
- }
+}

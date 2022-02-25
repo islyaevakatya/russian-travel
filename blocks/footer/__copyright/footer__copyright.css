@@ -1,15 +1,13 @@
 .footer__copyright {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height, or 114% */
-
-text-align: right;
-position: relative;
-margin: 0;
-padding-right: 48px;
-
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
+  position: relative;
+  margin: 0;
+  padding-right: 48px;
 }
 
 .footer__copyright:hover {

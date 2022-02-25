@@ -1,16 +1,16 @@
 .intro__text {
-margin: 0;
-font-weight: normal;
-font-size: 16px;
-line-height: 163%;
-/* or 26px */
-max-width: 690px;
-padding-bottom: 33px;
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+  max-width: 690px;
+  padding-bottom: 33px;
 
 }
 
 @media screen and (max-width: 768px) {
   .intro__article {
-  max-width: 720px;
+    max-width: 720px;
   }
-  }
+}

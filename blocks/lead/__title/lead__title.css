@@ -7,39 +7,31 @@
   line-height: 100px;
   text-align: center;
   padding-right: 280px;
-    padding-left: 280px;
-
+  padding-left: 280px;
 }
 
 
 @media screen and (max-width:1024px) {
   .lead__title {
-   padding-left: 152px;
-   padding-right: 152px;
-
-
-
+    padding-left: 152px;
+    padding-right: 152px;
   }
 }
 
 @media screen and (max-width:768px) {
   .lead__title {
-   padding-left: 24px;
-   padding-right: 24px;
-
-
-
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width:320px) {
   .lead__title {
-   padding-left: 16px;
-   padding-right: 16px;
-   max-width: 288px;
-   font-size: 40px;
-   line-height: 44px;
-   /* or 110% */
-
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    /* or 110% */
   }
 }

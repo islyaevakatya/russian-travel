@@ -1,19 +1,16 @@
 .place {
   max-width: 984px;
-  max-height: 660px;
+  min-height: 660px;
   margin: 0 auto;
   padding-left: 148px;
   padding-right: 148px;
   display: grid;
   grid-template-columns:460px 456px;
-  grid-template-rows: repeat(2,);
-  /*grid-column-gap: 40px;*/
-  /*grid-auto-rows: 40px;*/
-
+  grid-template-rows: 152px 460px;
   grid-column-start: 48px;
   gap: 48px 40px;
-/*box-sizing: border-box;*/
-padding-bottom: 80px;
+  box-sizing: border-box;
+  padding-bottom: 80px;
 }
 
 .place:nth-of-type(5n){
@@ -24,60 +21,56 @@ padding-bottom: 80px;
 @media screen and (max-width:1024px) {
   .place {
     padding-left: 48px;
-  padding-right: 48px;
-  grid-template-columns:440px 456px;
-  max-width: 928px;
-  max-height: 640px;
-  gap: 48px 32px;
-
+    padding-right: 48px;
+    grid-template-columns:440px 456px;
+    grid-template-rows: 152px 440px;
+    max-width: 928px;
+    min-height: 640px;
+    gap: 48px 32px;
   }
-
 }
 
 @media screen and (max-width:1024px) {
   .place:nth-of-type(5n){
     padding-bottom: 92px;
   }
-
 }
 
 @media screen and (max-width:768px) {
   .place {
     padding-left: 24px;
-  padding-right: 24px;
-  grid-template-columns:340px 340px;
-  max-width: 720px;
-  max-height: 581px;
-  gap: 48px 28px;
-
+    padding-right: 24px;
+    grid-template-columns:340px 340px;
+    grid-template-rows: min-content;
+    max-width: 720px;
+    min-height: 581px;
+    gap: 48px 28px;
+    padding-bottom: 0;
   }
-
 }
 
 @media screen and (max-width:768px) {
   .place:nth-of-type(5n){
     padding-bottom: 90px;
   }
-
 }
 
 @media screen and (max-width:320px) {
   .place {
-
-  grid-template-columns:1fr;
-  max-width: 320px;
-  min-height: 1042px;
-  gap: 32px 32px;
-  padding: 0;
-  padding-bottom: 50px;
-
+    grid-template-columns:1fr;
+    max-width: 320px;
+    /*min-height: 1042px;*/
+    gap: 32px 32px;
+    padding: 0;
+    padding-bottom: 50px;
+    grid-template-rows: min-content;
   }
-
 }
-
+/*
 @media screen and (max-width:320px) {
   .place:nth-of-type(5n){
-    padding-bottom: 66px;
-  }
+    padding-bottom: 66%;
 
+  }
 }
+*/

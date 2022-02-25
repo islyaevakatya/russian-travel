@@ -3,7 +3,6 @@
   font-size: 18px;
   line-height: 22px;
   /* identical to box height, or 122% */
-
   text-decoration-line: underline;
   color: #fff;
   list-style-type: none;
@@ -14,13 +13,11 @@
 @media screen and (max-width: 768px) {
   .plase__website__link {
     max-width: 352px;
-
   }
 }
 
 @media screen and (max-width: 320px) {
   .plase__website__link {
-  max-width: 288px;
-
+    max-width: 288px;
   }
 }

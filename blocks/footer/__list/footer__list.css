@@ -8,31 +8,23 @@
   grid-template-columns: repeat(5, min-content);
   justify-self: start;
   align-items: end;
-
   gap: 18px;
   position: relative;
   padding-top: 92px;
-
   padding-left: 48px;
 }
 
-@media screen  and (max-width: 1024px) {
-.footer__list {
-
-}
-}
 
 @media screen  and (max-width: 768px) {
   .footer__list {
     padding-top: 88px;
-  }
+   }
   }
 
-  @media screen  and (max-width: 320px) {
-    .footer__list {
-      grid-template-columns: 0;
-      padding-top: 64px;
-
-      padding-left: 24px;
+@media screen  and (max-width: 320px) {
+  .footer__list {
+    grid-template-columns: 0;
+    padding-top: 64px;
+    padding-left: 24px;
     }
-    }
+  }
