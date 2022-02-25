@@ -1,4 +1,4 @@
-.plase__website__link {
+.plase__website_heading-link {
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
@@ -11,13 +11,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .plase__website__link {
+  .plase__website_heading-link {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .plase__website__link {
+  .plase__website_heading-link {
     max-width: 288px;
   }
 }

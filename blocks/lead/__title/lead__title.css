@@ -1,6 +1,6 @@
 .lead__title {
   padding-top: 56px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   max-width: 720px;
   font-weight: 900;
   font-size: 96px;
@@ -8,6 +8,7 @@
   text-align: center;
   padding-right: 280px;
   padding-left: 280px;
+  margin: 0;
 }
 
 

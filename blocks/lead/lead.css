@@ -1,9 +1,9 @@
 .lead {
-  max-width: 984px;
+  /*max-width: 984px;*/
   min-height: 1005px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   align-items: center;
   box-sizing: border-box;
   /*margin: 0 auto;*/
