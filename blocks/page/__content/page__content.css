@@ -1,27 +1,12 @@
 .page__content  {
   max-width: 1280px;
+  min-width: 320px;
   margin: 0 auto;
   background-color:#2A2C2F;
   color: #FFFFFF;
   font-family: 'Inter', "Helvetica Neue", Arial, sans-serif;
+  padding-bottom: 24px;
+  box-sizing: border-box;
 }
 
 
-
-@media screen and (max-width:1024px) {
-  .page__content {
-    max-width: 1024px;
-   }
-  }
-
-  @media screen and (max-width:786px) {
-    .page__content {
-      max-width: 786px;
-     }
-    }
-
-    @media screen and (max-width:320px) {
-      .page__content {
-        max-width: 320px;
-       }
-      }

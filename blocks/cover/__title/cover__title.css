@@ -12,22 +12,16 @@
   /*padding-left: 312px;
   padding-right: 312px;*/
   padding-top: 245px;
-  /*margin: 0 auto;*/
-
 }
 
 @media screen  and (max-width: 1024px){
   .cover__title {
-    /*padding-left: 232px;
-  padding-right: 232px;*/
   padding-top: 195px;
   }
 }
 
 @media screen  and (max-width: 786px){
   .cover__title {
-    /*padding-left: 104px;
-  padding-right: 104px;*/
   padding-top: 115px;
   }
 }
@@ -37,9 +31,6 @@
     max-width: 288px;
     font-size: 32px;
    line-height: 35px;
-   /* or 109% */
-   /*padding-left: 16px;
-   padding-right: 16px;*/
    padding-top: 33px;
   }
 }

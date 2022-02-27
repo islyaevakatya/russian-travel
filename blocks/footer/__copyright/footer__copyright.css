@@ -15,10 +15,29 @@
   background-color: #2A2C2F;
 }
 
+
+
+
+@media screen  and (max-width: 475px) {
+  .footer__copyright {
+    padding-left: 16px;
+    text-align: left;
+    padding-right: 0;
+    align-self: end;
+  }
+}
+
+
+@media screen  and (max-width: 375px) {
+  .footer__copyright {
+    padding-left: 16px;
+    text-align: left;
+  }
+  }
+
 @media screen  and (max-width: 320px) {
   .footer__copyright {
-    padding-right: 24px;
-    padding-left: 24px;
-
+    padding-left: 16px;
+    text-align: left;
   }
   }
