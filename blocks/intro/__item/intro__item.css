@@ -1,8 +1,7 @@
 .intro__item {
   text-decoration: none;
   list-style-type: none;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
 }

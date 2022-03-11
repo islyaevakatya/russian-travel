@@ -4,40 +4,24 @@
   list-style-type: none;
   text-decoration: none;
   color: #fff;
-  display: grid;
-  grid-template-columns: repeat(5, min-content);
-  justify-self: start;
-  align-items: end;
   gap: 18px;
- justify-content: space-between;
   position: relative;
-  /*padding-top: 92px;*/
-  padding-left: 48px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-@media screen  and (max-width: 475px) {
-  .footer__list {
-    grid-template-columns: repeat(1, min-content);
-    padding: 0;
-   }
-  }
-
-@media screen  and (max-width: 375px) {
-  .footer__list {
-    grid-template-columns: repeat(1, min-content);
-   }
-  }
-
-
+  @media screen  and (max-width: 600px) {
+    .footer__list {
+      flex-direction: column;
+      flex-wrap: wrap;
+      }
+    }
 
 @media screen  and (max-width: 320px) {
   .footer__list {
-    grid-template-columns: repeat(1, min-content);
     gap: 32px;
-    /*padding-top: 64px;*/
-
-    padding: 0;
-    padding-left: 16px;
+    flex-direction: column;
+    flex-wrap: wrap;
     text-align: left;
     margin: 0;
     }

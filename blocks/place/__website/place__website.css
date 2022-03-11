@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   align-self: end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 320px) {

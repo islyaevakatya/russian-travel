@@ -3,9 +3,11 @@
   justify-content: space-between;
   min-height: 52px;
   max-width: 1184px;
-  box-sizing: border-box;
-  /*padding-top: 28px;*/
+  /*box-sizing: border-box;*/
+  padding-top: 28px;
   margin: 0 auto;
+  padding-right: 48px;
+  padding-left: 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,6 +19,8 @@
 @media screen and (max-width: 768px) {
   .header {
     max-width: 720px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
@@ -25,6 +29,8 @@
     max-width: 288px;
     min-height: 42px;
     padding-top: 16px;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 

@@ -2,12 +2,9 @@
   margin: 0;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
-  /* or 106% */
   max-width: 460px;
   font-style: normal;
   padding: 0;
-  /*padding-bottom: 48px;*/
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,7 +19,6 @@
     max-width: 340px;
     font-size: 42px;
     line-height: 46px;
-    /* identical to box height, or 110% */
   }
 }
 
@@ -30,7 +26,7 @@
   .place__title {
     max-width: 288px;
     font-size: 32px;
-    line-height: 35px;
+    line-height:35px;
     padding-left: 16px;
   }
 }

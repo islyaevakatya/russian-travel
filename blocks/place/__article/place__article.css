@@ -3,4 +3,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 320px) {
+  .place__article {
+    padding-bottom: 50px;
+  }
+}
 
+.place__article:nth-of-type(5n) {
+  padding-bottom: 0;
+}

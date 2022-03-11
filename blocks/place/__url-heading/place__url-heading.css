@@ -2,11 +2,17 @@
   color:#AAAAAA;
   font-size: 12px;
   line-height: 12px;
-  /* identical to box height, or 100% */
   letter-spacing: 2px;
   max-width: 456px;
   margin: 0;
-  padding-bottom: 12px;
+  padding-bottom: 18px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .place__url-heading {
+    padding-bottom: 16px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -14,5 +20,6 @@
     font-size: 12px;
     line-height: 12px;
     max-width: 288px;
+    padding-bottom: 5px;
   }
 }

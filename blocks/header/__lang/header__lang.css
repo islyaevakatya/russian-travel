@@ -1,14 +1,15 @@
 .header__lang {
   margin: 0;
   list-style-type: none;
-  padding: 0;
   display:flex;
   align-items: flex-end;
-  padding-right: 48px;
+  box-sizing: border-box;
+  height: 28px;
+  padding-top: 46px;
 }
 
 @media screen and (max-width:320px) {
   .header__lang {
-    padding-right: 16px;
+    padding-top: 35px;
   }
 }
