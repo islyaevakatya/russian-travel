@@ -1,25 +1,28 @@
 .lead {
-  min-height: 1005px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  width: 76,8%;
+  padding-right: 148px;
+  padding-left: 148px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1279px) {
   .lead {
-    min-height: 962px;
+    width: 90,6%;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
   .lead {
-    min-height: 862px;
+    max-width: 100%;
+    padding: 0;
   }
 }
 
-@media screen and (max-width:320px) {
-  .lead {
-    min-height: 406px;
-  }
-}
+

@@ -1,30 +1,6 @@
 .lead__images {
-  width: 100vw;
-  max-width: 984px;
-  padding-left: 148px;
-  padding-right: 148px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-
-@media screen and (max-width:1024px) {
-  .lead__images {
-    max-width: 928px;
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-}
-
-@media screen and (max-width:768px) {
-  .lead__images {
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width:320px) {
-  .lead__images {
-    max-width: 320px;
-  }
-}
 

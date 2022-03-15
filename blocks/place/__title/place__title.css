@@ -2,19 +2,12 @@
   margin: 0;
   font-weight: 900;
   font-size: 72px;
-  max-width: 460px;
   font-style: normal;
   padding: 0;
+  line-height: 1;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__title {
-    max-width: 440px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__title {
     max-width: 340px;
     font-size: 42px;
@@ -22,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__title {
     max-width: 288px;
     font-size: 32px;
