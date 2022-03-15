@@ -10,6 +10,12 @@
   padding-bottom: 10px;
 }
 
+.place__link:hover {
+  opacity: 0.8;
+  background-color: #2A2C2F;
+}
+
+
 @media screen and (max-width: 1279px) {
   .place__link {
     padding-bottom: 16px;

@@ -4,6 +4,10 @@
   object-fit: cover;
 }
 
+.header__logo:hover {
+  opacity: 0.8;
+  background-color: #2A2C2F;
+}
 
 @media screen and (max-width:767px) {
   .header__logo {
